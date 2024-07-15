@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1711748735 source:c:\users\ntlak\documents\c files\series rlc circuit project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<math.h>
+
+1711748735 source:c:\users\ntlak\documents\personal stuff\my-projects\series rlc circuit project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<math.h>
+
