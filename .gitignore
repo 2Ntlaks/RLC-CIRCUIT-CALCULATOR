@@ -1,0 +1,98 @@
+# RLC Calculator .gitignore
+
+# Compiled executables
+rlc_calculator
+rlc_calculator.exe
+rlc_calculator_debug
+rlc_calculator_debug.exe
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.lo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Code::Blocks files
+*.cbp
+*.depend
+*.layout
+*.workspace
+
+# Build directories
+bin/
+obj/
+build/
+dist/
+Debug/
+Release/
+
+# Backup and temporary files
+*.backup
+*.bak
+*.tmp
+*.temp
+*~
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*-release/
+
+# Core dumps
+core
+core.*
+*.core
+
+# Profiling and debugging
+*.gcno
+*.gcda
+*.gcov
+gmon.out
+
+# Static analysis reports
+cppcheck_report.txt
+*.plist
+
+# Log files
+*.log
+*.out
+
+# Windows specific
+*.pdb
+*.idb
+*.ilk
+*.map
+*.exp
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon*
+
+# Linux specific
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*

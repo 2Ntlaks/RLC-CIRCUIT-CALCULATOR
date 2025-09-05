@@ -1,0 +1,64 @@
+# RLC Circuit Calculator - Example Test Cases
+
+## Test Case 1: Basic Series RLC Circuit
+Input:
+- Supply voltage: 12 V
+- Frequency: 1000 Hz
+- Resistance: 100 Ohms
+- Inductance: 50 mH
+- Capacitance: 10 μF
+
+Expected Results:
+- Xc ≈ 15.915 Ohms
+- Xl ≈ 314.159 Ohms  
+- Z ≈ 314.562 Ohms
+- I ≈ 0.0381 A
+- Circuit Type: Inductive (Xl > Xc)
+- Phase Angle: ~71.46°
+
+## Test Case 2: Resonant Circuit
+Input:
+- Supply voltage: 10 V
+- Frequency: 225 Hz (near resonant frequency)
+- Resistance: 50 Ohms
+- Inductance: 50 mH
+- Capacitance: 10 μF
+
+Expected Results:
+- Should be near resonance
+- Z ≈ R (minimum impedance)
+- Phase angle ≈ 0°
+- Maximum current
+
+## Test Case 3: Capacitive Circuit
+Input:
+- Supply voltage: 5 V
+- Frequency: 100 Hz
+- Resistance: 200 Ohms
+- Inductance: 10 mH
+- Capacitance: 100 μF
+
+Expected Results:
+- Xc > Xl (capacitive circuit)
+- Current leads voltage
+- Negative phase angle
+
+## Test Case 4: High Frequency Circuit
+Input:
+- Supply voltage: 15 V
+- Frequency: 10000 Hz
+- Resistance: 75 Ohms
+- Inductance: 5 mH
+- Capacitance: 1 μF
+
+Expected Results:
+- High inductive reactance
+- Very inductive circuit
+- Large positive phase angle
+
+## Common Circuit Analysis Points:
+1. At resonance: Xl = Xc, Z = R (minimum), Phase = 0°
+2. Inductive (Xl > Xc): Current lags, positive phase angle
+3. Capacitive (Xc > Xl): Current leads, negative phase angle
+4. Power factor = cos(phase angle)
+5. Only resistor dissipates real power
